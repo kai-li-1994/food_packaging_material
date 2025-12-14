@@ -27,33 +27,31 @@ The materials support:
 Global B2B marketplace listings from Original Equipment Manufacturers (OEM) and Original Design Manufacturers (ODM)
 
 # Repository structure
+```
 food_packaging_design_data.zip
-│
-│── code/
+├── code/
 │ ├── 1_keyword_mapping.py
 │ ├── 2_collect_urls.py
 │ ├── 3_fetch_attributes.py
 │ └── 4_result_parse.py
 │
-│── data_raw/
+├── data_raw/
 │ ├── flat_merged_attributes_urls_packaging_<keyword>500<timestamp>.csv
 │ └── (82 files; one per packaging keyword)
 │
-│── data_processed/
+├── data_processed/
 │ ├── all_listings/
-│ │ ├── listings_<keyword>.csv (82 files)
-│ │
+│ │ └── listings_<keyword>.csv (82 files)
 │ ├── all_offerings/
-│ │ ├── offerings_<keyword>.csv (82 files)
-│ │
+│ │ └── offerings_<keyword>.csv (82 files)
 │ └── all_metadata/
-│ ├── metadata_<keyword>.csv (82 files)
+│ └── metadata_<keyword>.csv (82 files)
 │
-│── readouts/
-│ ├── df_mapping_rules.csv
-│ ├── all_shares_per_keyword.xlsx
-│ └── extended_share_results.xlsx
-
+└── readouts/
+├── df_mapping_rules.csv
+├── all_shares_per_keyword.xlsx
+└── extended_share_results.xlsx
+```
 ## 1. `code/` — analysis pipeline
 
 Python scripts implementing the full workflow:
@@ -167,8 +165,6 @@ The dataset is suitable for:
 - Design-for-Recycling (DfR) evaluation,
 - packaging policy analysis,
 - comparative studies of global packaging design practices.
-
----
 
 # Citation
 
