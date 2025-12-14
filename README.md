@@ -2,7 +2,9 @@
 This repository contains the data and code underlying the study:
 **“Functional lock-in sustains nearly half of food-packaging designs multimaterial in global B2B supply chains.”**
 
+
 ![Analysis workflow](methods_zenodo.svg)
+
 
 The repository provides **design-level evidence** on material composition, laminate structures, component compatibility, and recycling incompatibility in food packaging. The data are derived from large-scale scraping and structured parsing of global business-to-business (B2B) packaging listings on Alibaba.com and are linked to food product categories defined under the EU Combined Nomenclature (CN).
 
